@@ -1,6 +1,8 @@
 # jefferson
 JFFS2 filesystem extraction tool
+
 Based on [sviehn's jefferson](https://github.com/sviehb/jefferson)
+
 Removed multiple fs handling and handle duplicate inode number by its version
 
 Installation

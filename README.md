@@ -1,5 +1,7 @@
 # jefferson
 JFFS2 filesystem extraction tool
+Based on [sviehn's jefferson](https://github.com/sviehb/jefferson)
+Removed multiple fs handling and handle duplicate inode number by its version
 
 Installation
 ============
@@ -24,7 +26,6 @@ Features
 - `JFFS2_COMPR_ZLIB`, `JFFS2_COMPR_RTIME`, and `JFFS2_COMPR_LZMA` compression support
 - CRC checks - for now only enforced on `hdr_crc`
 - Extraction of symlinks, directories, files, and device nodes
-- Detection/handling of duplicate inode numbers. Occurs if multiple JFFS2 filesystems are found in one file and causes `jefferson` to treat segments as separate filesystems
 
 Usage
 ============
